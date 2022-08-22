@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+* Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess
+ */
+ 
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: local(※), url("../fonts/NotoSansKR-Thin.woff2") format('woff2'),
+       url("../fonts/NotoSansKR-Thin.woff") format('woff'),
+       url("../fonts/NotoSansKR-Thin.otf") format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: local(※), url("../fonts/NotoSansKR-Light.woff2") format('woff2'),
+       url("../fonts/NotoSansKR-Light.woff") format('woff'),
+       url("../fonts/NotoSansKR-Light.otf") format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: local(※), url("../fonts/NotoSansKR-Regular.woff2") format('woff2'),
+        url("../fonts/NotoSansKR-Regular.woff") format('woff'),
+        url("../fonts/NotoSansKR-Regular.otf") format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 500;
+   src: local(※), url("../fonts/NotoSansKR-Medium.woff2") format('woff2'),
+        url("../fonts/NotoSansKR-Medium.woff") format('woff'),
+        url("../fonts/NotoSansKR-Medium.otf") format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 700;
+   src: local(※), url("../fonts/NotoSansKR-Bold.woff2") format('woff2'),
+        url("../fonts/NotoSansKR-Bold.woff") format('woff'),
+        url("../fonts/NotoSansKR-Bold.otf") format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 900;
+   src: local(※), url("../fonts/NotoSansKR-Black.woff2") format('woff2'),
+        url("../fonts/NotoSansKR-Black.woff") format('woff'),
+        url("../fonts/NotoSansKR-Black.otf") format('opentype');
+ }
+
+
+
+/*서울 남산체*/
+@font-face {
+	font-family: "SeoulNamsan";
+	src: url("../fonts/SeoulNamsanB.woff2") format("woff2"),
+		url("../fonts/SeoulNamsanB.woff") format("woff"),
+		url("../fonts/SeoulNamsanB.otf") format("opentype");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "SeoulNamsan";
+	src: url("../fonts/SeoulNamsanEB.woff2") format("woff2"),
+		url("../fonts/SeoulNamsanEB.woff") format("woff"),
+		url("../fonts/SeoulNamsanEB.otf") format("opentype");
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "SeoulNamsan";
+	src: url("../fonts/SeoulNamsanL.woff2") format("woff2"),
+		url("../fonts/SeoulNamsanL.woff") format("woff"),
+		url("../fonts/SeoulNamsanL.otf") format("opentype");
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "SeoulNamsan";
+	src: url("../fonts/SeoulNamsanM.woff2") format("woff2"),
+		url("../fonts/SeoulNamsanM.woff") format("woff"),
+		url("../fonts/SeoulNamsanM.otf") format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+/*서울한강체*/
+@font-face {
+	font-family: 'seoulhangangregular';
+	src: url('../fonts/SeoulHangang.eot');
+	src: url('../fonts/SeoulHangang.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SeoulHangang.woff2') format('woff2'),
+		url('../fonts/SeoulHangang.woff') format('woff'),
+		url('../fonts/SeoulHangang.ttf') format('truetype'),
+		url('../fonts/SeoulHangang.svg#seoulhangangregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'gyeonggititlelight';
+	src: url('../fonts/gyeonggititle_light.woff2') format('woff2'),
+		url('../fonts/gyeonggititle_light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+/*경기도 타이틀*/
+
+@font-face {
+	font-family: 'gyeonggititlemedium';
+	src: url('../fonts/gyeonggititle_medium.woff2') format('woff2'),
+		url('../fonts/gyeonggititle_medium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+/*청소년체*/
+@font-face {
+	font-family: 'Youth';
+	font-style: normal;
+	font-weight: 400;
+	src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'),
+		url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'gyeonggititlevbold';
+	src: url('../fonts/gyeonggititlev_bold.woff2') format('woff2'),
+		url('../gyeonggititlev_bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+/* tvn 즐거운 이야기 웹폰트 */
+@font-face {
+	font-family: 'tvn_enjoystories medium';
+	src: url('../fonts/tvn__medium-webfont.woff2') format('woff2'),
+		url('../fonts/tvn__medium-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'tvn_enjoystories bold';
+	src: url('../fonts/tvn__bold-webfont.woff2') format('woff2'),
+		url('../fonts/tvn__bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+/*청소년체*/
+@font-face {font-family: "Youth";
+  src: url("../fonts/48fa17cc8b6f6ea5d38968d304e2d816.eot"); /* IE9*/
+  src: url("../fonts/48fa17cc8b6f6ea5d38968d304e2d816.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/48fa17cc8b6f6ea5d38968d304e2d816.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/48fa17cc8b6f6ea5d38968d304e2d816.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/48fa17cc8b6f6ea5d38968d304e2d816.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/48fa17cc8b6f6ea5d38968d304e2d816.svg#Youth") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+   font-family: 'gTitle';
+   font-style: normal;
+   font-weight: 400;
+   src: local(※), url("../fonts/Title_Light.woff2") format('woff2'),
+        url("../fonts/Title_Light.woff") format('woff'),
+        url("../fonts/Title_Light.otf") format('opentype');
+ }
+
+
+@font-face {
+   font-family: 'gTitle';
+   font-style: normal;
+   font-weight: 600;
+   src: local(※), url("../fonts/Title_Medium.woff2") format('woff2'),
+        url("../fonts/Title_Medium") format('woff'),
+        url("../fonts/Title_Medium.otf") format('opentype');
+ }
+
+
