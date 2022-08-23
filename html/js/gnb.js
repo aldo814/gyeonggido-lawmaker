@@ -101,7 +101,13 @@ $(document).ready(function () {
     $('.depth3').mouseleave(function () {
         $(this).parent().removeClass('on');
     });
-
+    
+     $('.depth1').mouseover(function () {
+        $(this).parent().addClass('on');
+    });
+    $('.depth1').mouseleave(function () {
+        $(this).parent().removeClass('on');
+    })
     /*모바일 메뉴*/
     $(document).on('click', '.mb #gnb .depth1 a', function (e) {
         e.preventDefault();
@@ -114,10 +120,14 @@ $(document).ready(function () {
 
     $(document).on('click', '.mb #gnb .depth2_li > a', function (e) {
         e.preventDefault();
-        $(this).next('.depth3').slideToggle(0); 
-        $(this).parent().toggleClass('on'); $(this).parent().siblings().children().removeClass('on'); $(this).parent().siblings().children('.depth3:visible').slideUp(0);
+        $(this).next('.depth3').slideToggle(0); //dep2 ul
+        $(this).toggleClass('on'); $(this).parent().siblings().children('.depth2_li').removeClass('on')
+        $(this).parent().siblings().children('.depth3:visible').slideUp(0)
 
     });
+
+
+
 
 });
 
